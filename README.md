@@ -20,10 +20,10 @@ Exiba o valor que representa o consumo médio do automóvel (3 casas após a ví
 Exemplos de Entrada  | Exemplos de Saída
 ------------- | -------------
 500 | 14.286 km/l
-35.0 | 
-- | 
+35.0 |
+- |
 2254 | 18.119 km/l
-124.4 | 
+124.4 |
 -|
 4554 | 9.802 km/l
 464.6 |
