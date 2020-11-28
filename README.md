@@ -33,7 +33,7 @@ _ | _
 
 ```javascript
 //SOLUCAO 1
-//Sera lido duas entradas e atribuido na variavel*/
+/*Sera lido duas entradas e atribuido na variavel*/
 var valorDistancia = parseInt(gets());
 var valorCombustivel = parseFloat(gets());
 /*será calculado, e o resultado tera tres casas decimais depois da virgula*/
