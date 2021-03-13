@@ -1,7 +1,7 @@
-## Treinamento Digital Innovation One - Exercicio - Consumo medio do automovel
+## Exercicio - Consumo medio do automovel
 
-O exercicio publicado é referente ao treinamento do BOOTCAMP - Desenvolvedor NodeJS - Fundamentos Aritméticos em JavaScript.
-(https://digitalinnovation.one)
+O exercicio publicado é referente ao treinamento do BOOTCAMP - Desenvolvedor NodeJS - Fundamentos Aritméticos em JavaScript. (https://digitalinnovation.one)
+
 
 #### Descrição do Desafio:
 
@@ -32,24 +32,25 @@ _ | _
 #### Javascript
 
 ```javascript
-//SOLUCAO 1
-/*Sera lido duas entradas e atribuido na variavel*/
-var valorDistancia = parseInt(gets());
-var valorCombustivel = parseFloat(gets());
+// SOLUCAO 1
+/*Utilizado variaveis constantes (const) e ajustado nomenclatura das constantes (Uso de conceitos CleanCode)*/
+/*Sera lido duas entradas (gets()) e será atribuido na constante*/
+const valorDistancia = parseInt(gets());
+const valorCombustivel = parseFloat(gets());
 /*será calculado, e o resultado tera tres casas decimais depois da virgula*/
-var valorConsumoMedio = parseFloat(valorDistancia / valorCombustivel).toFixed(3);
+const valorConsumoMedio = parseFloat(valorDistancia / valorCombustivel).toFixed(3);
 /*imprime o resultado concatenando com string*/
 console.log(valorConsumoMedio + " km/l");
 
 
-//SOLUCAO 2 - Resumido
-/*Sera lido duas entradas.Calculado, e o resultado tera tres casas decimais depois da virgula*/
+// SOLUCAO 2
+/*Sera lido duas entradas. Calcula e o resultado terá tres casas decimais depois da virgula*/
 var valorConsumoMedio = parseFloat(parseInt(gets()) / parseFloat(gets())).toFixed(3);
 /*imprime o resultado concatenando com string*/
 console.log(valorConsumoMedio + " km/l");
 
 
-//SOLUCAO 3 - Resumido
-/*Sera lido duas entradas.Calculado. Resultado tera tres casas decimais depois da virgula.Imprime resultado concatenando com string*/
+// SOLUCAO 3 
+/*Sera lido duas entradas. Calcula. Resultado terá tres casas decimais, depois da virgula. Imprime resultado, concatenando com string*/
 console.log((parseFloat(parseInt(gets()) / parseFloat(gets())).toFixed(3)) + " km/l");
 ```
